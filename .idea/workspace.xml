@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981ea8b1-53b1-4144-bad5-7c533939a99f" name="Changes" comment="This class, I read and learned about how to create fractal trees (how to use pushMatrix() and popMatrix()), and I implemented a fractal tree!">
+    <list default="true" id="981ea8b1-53b1-4144-bad5-7c533939a99f" name="Changes" comment="For homework, I made the fractal trees gradiant, randomized the branches (stochastic tree) and modified the code to create a circle design.">
+      <change afterPath="$PROJECT_DIR$/src/Boxies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cauliflower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cauliflower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circlogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circlogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,11 +62,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684260646206</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="For homework, I made the fractal trees gradiant, randomized the branches (stochastic tree) and modified the code to create a circle design.">
+      <created>1684425503421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684425503421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This class, I read and learned about how to create fractal trees (how to use pushMatrix() and popMatrix()), and I implemented a fractal tree!" />
-    <option name="LAST_COMMIT_MESSAGE" value="This class, I read and learned about how to create fractal trees (how to use pushMatrix() and popMatrix()), and I implemented a fractal tree!" />
+    <MESSAGE value="For homework, I made the fractal trees gradiant, randomized the branches (stochastic tree) and modified the code to create a circle design." />
+    <option name="LAST_COMMIT_MESSAGE" value="For homework, I made the fractal trees gradiant, randomized the branches (stochastic tree) and modified the code to create a circle design." />
   </component>
 </project>
