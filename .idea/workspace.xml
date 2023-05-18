@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981ea8b1-53b1-4144-bad5-7c533939a99f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="981ea8b1-53b1-4144-bad5-7c533939a99f" name="Changes" comment="This class, I read and learned about how to create fractal trees (how to use pushMatrix() and popMatrix()), and I implemented a fractal tree!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +32,8 @@
     "jdk.selected.JAVA_MODULE": "corretto-19",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,6 +45,18 @@
       <option name="presentableId" value="Default" />
       <updated>1684258047458</updated>
     </task>
+    <task id="LOCAL-00001" summary="This class, I read and learned about how to create fractal trees (how to use pushMatrix() and popMatrix()), and I implemented a fractal tree!">
+      <created>1684260646205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684260646206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This class, I read and learned about how to create fractal trees (how to use pushMatrix() and popMatrix()), and I implemented a fractal tree!" />
+    <option name="LAST_COMMIT_MESSAGE" value="This class, I read and learned about how to create fractal trees (how to use pushMatrix() and popMatrix()), and I implemented a fractal tree!" />
   </component>
 </project>
