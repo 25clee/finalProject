@@ -1,10 +1,11 @@
 public class Circlogo extends Boxies{
 
-    public Circlogo (){
+    public Circlogo (int x, int y){
+        super(x, y);
     }
     public void branch(float len, int color, float theta) {
         Main.app.stroke(color/13, color/4, color/2);
-        Main.app.strokeWeight(20);
+        Main.app.strokeWeight(2/*20*/);
         Main.app.circle(200,100,50);
         Main.app.translate(0, -len);
         len *= 0.66;

@@ -29,24 +29,29 @@ public class Main extends PApplet {
             int y = i*h;
             for (int j = 0; j<NUM_BOXIES_HORIZONTAL; j++){
                 int x = j*w;
-                if (i % 2 == 0){
-                    b = new Cauliflower();
-                } else {
-                    b = new Circlogo();
-                }
+                b = new Cauliflower(0,0);
+//                if (i % 2 == 0){
+//                    b = new Cauliflower(0,0);
+//                } else {
+//                    b = new Circlogo(0,0);
+//                }
+                boxies.add(b);
             }
         }
-        cauliflower = new Cauliflower();
-        circlogo = new Circlogo();
+//        cauliflower = new Cauliflower();
+//        circlogo = new Circlogo();
     }
 
     public void draw(){
         background(255);
         translate(width/2, height);
         stroke(0);
+        for(Boxies b : boxies){
+            b.branch(0, 60, 216, map(mouseX,0,width,0,PI/2));
+        }
 //        cauliflower.branch(60, 216);
 //        circlogo.branch(60,216, map(mouseX,0,width,0,PI/2));
-        // use display to draw the boxies?
+
     }
 
 
