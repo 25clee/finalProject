@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981ea8b1-53b1-4144-bad5-7c533939a99f" name="Changes" comment="For homework, I rewrote/cleaned/organized parts of my code - now, each row of Boxie objects is a distinct ArrayList (this gives me more flexibility regarding the functionality of the subclass objects of Boxie).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boxies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boxies.java" afterDir="false" />
+    <list default="true" id="981ea8b1-53b1-4144-bad5-7c533939a99f" name="Changes" comment="For homework, I rewrote/cleaned/organized parts of my code - now, each row of Boxie objects is a distinct ArrayList (this gives me more flexibility regarding the functionality of the subclass objects of Boxie). I also rewrote the Cauliflower class so that the Cauliflowers would be lined up horizontally (versus vertically).">
       <change beforePath="$PROJECT_DIR$/src/Broccoli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Broccoli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cauliflower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cauliflower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684616555163</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="For homework, I rewrote/cleaned/organized parts of my code - now, each row of Boxie objects is a distinct ArrayList (this gives me more flexibility regarding the functionality of the subclass objects of Boxie). I also rewrote the Cauliflower class so that the Cauliflowers would be lined up horizontally (versus vertically).">
+      <created>1684874980229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684874980229</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,7 +112,8 @@
     <MESSAGE value="For homework, I modified the branch methods of Cauliflower and Circlogo to work for the ArrayList. I have begun to try to fix my code so that each Boxie object is separate (they are currently stacked on top of each other)." />
     <MESSAGE value="In class, I continued to work on fixing my code (so the Boxie objects do not appear stacked on top of each other). I also began experimenting with L-Systems as well as another Boxie object called Broccoli which may include a user interaction (perhaps mousePressed or keyPressed - TBD)." />
     <MESSAGE value="For homework, I rewrote/cleaned/organized parts of my code - now, each row of Boxie objects is a distinct ArrayList (this gives me more flexibility regarding the functionality of the subclass objects of Boxie)." />
-    <option name="LAST_COMMIT_MESSAGE" value="For homework, I rewrote/cleaned/organized parts of my code - now, each row of Boxie objects is a distinct ArrayList (this gives me more flexibility regarding the functionality of the subclass objects of Boxie)." />
+    <MESSAGE value="For homework, I rewrote/cleaned/organized parts of my code - now, each row of Boxie objects is a distinct ArrayList (this gives me more flexibility regarding the functionality of the subclass objects of Boxie). I also rewrote the Cauliflower class so that the Cauliflowers would be lined up horizontally (versus vertically)." />
+    <option name="LAST_COMMIT_MESSAGE" value="For homework, I rewrote/cleaned/organized parts of my code - now, each row of Boxie objects is a distinct ArrayList (this gives me more flexibility regarding the functionality of the subclass objects of Boxie). I also rewrote the Cauliflower class so that the Cauliflowers would be lined up horizontally (versus vertically)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
