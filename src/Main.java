@@ -4,6 +4,8 @@ public class Main extends PApplet {
 
     public static PApplet app;
     final int NUM_BOXIES = 4;
+
+    private int yeet;
     private ArrayList<Boxies> boxie1;
     private ArrayList<Boxies> boxie2;
 
@@ -46,26 +48,27 @@ public class Main extends PApplet {
     }
 
     public void draw(){
-        background(255);
+        background(0);
         translate(100, height);
         stroke(0);
 
+
         for(Boxies b : boxie1){
-            b.branch(0, 60, 216, map(mouseX,0,width,0,PI/2));
+            b.branch(0, 60, 700, map(mouseX,0,width,0,PI/2));
             translate(200,0);
         }
 
         translate(-800,-200);
 
         for(Boxies b : boxie2){
-            b.branch(0, 60, 216, map(mouseX,0,width,0,PI/2));
+            b.branch(0, 60, 400, yeet);
             translate(200,0);
         }
 
-        translate(-800,-200);
+        translate(-800,-250);
 
         for(Boxies b : boxie3){
-            b.branch( 60, 216, map(mouseX,0,width,0,PI/2));
+            b.branch( 30 /*how many circles*/, 400, map(mouseX,0,width,0,PI/2)) /*when the circles stop moving*/;
             translate(200,0);
         }
 
@@ -78,6 +81,11 @@ public class Main extends PApplet {
     private boolean key;
     public void keyPressed(){
         key = true;
+        int mathy = (int)(Math.random()*(PI/3));
+        System.out.println(mathy);
+        yeet += mathy;
+//        yeet = (int)(random(0,PI/3));
+        key = false;
 //        theta = Main.app.random(0,Main.app.PI/3);
 //        broccoli.branch(0, 60, 216, theta);
     }
