@@ -5,7 +5,8 @@ public class Main extends PApplet {
     public static PApplet app;
     final int NUM_BOXIES = 4;
 
-    private int yeet;
+    private float click;
+
     private ArrayList<Boxies> boxie1;
     private ArrayList<Boxies> boxie2;
 
@@ -61,7 +62,7 @@ public class Main extends PApplet {
         translate(-800,-200);
 
         for(Boxies b : boxie2){
-            b.branch(0, 60, 400, yeet);
+            b.branch(0, 60, 400, click);
             translate(200,0);
         }
 
@@ -80,14 +81,7 @@ public class Main extends PApplet {
     private float theta;
     private boolean key;
     public void keyPressed(){
-        key = true;
-        int mathy = (int)(Math.random()*(PI/3));
-        System.out.println(mathy);
-        yeet += mathy;
-//        yeet = (int)(random(0,PI/3));
-        key = false;
-//        theta = Main.app.random(0,Main.app.PI/3);
-//        broccoli.branch(0, 60, 216, theta);
+        click = (random(0,PI/3));
     }
 
 

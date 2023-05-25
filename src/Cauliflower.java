@@ -9,6 +9,7 @@ public class Cauliflower extends Boxies{
     public void branch(int x, float len, int color, float theta) {
         Main.app.pushMatrix();
         Main.app.stroke(color, color/7, color/3);
+
         Main.app.line(x, 0, x, -len);
         Main.app.translate(x, -len);
         len *= 0.66;
